@@ -24,7 +24,7 @@ python train_pctrans.py
 
 Test:
 
-We provide checkpoint for the setting snr = 10, reconstructed_points = 2048 and bottleneck_size = 300. Change the parameters and type 
+We provide checkpoint for the setting snr = 10, reconstructed_points = 2048 and bottleneck_size = 300, available [here](https://drive.google.com/file/d/1Bty9ELdfqjdEdRaQ3pBaIQFjMpd1Eq5n/view?usp=sharing). Place it in the folder 'log/300_2048_snr10/checkpoints'  Change the parameters and type 
 for evaluation.
 ```
 python test_pctrans.py
@@ -33,13 +33,15 @@ python test_pctrans.py
 ### Qualitive results
 We show in the left figure that the proposed scheme can outperform the [DPCC](https://github.com/arsx958/PCT_PCC) delivered under the achievable rate of finite block length ([finite block length channel coding](https://github.com/yp-mit/spectre)). We also show with a setting more favorable to the conventional GPCC algorithm, we can still outperform GPCC + finite block length achievable rate. The figure in the right shows SEPT avoids cliff effect.
 <center class="half">
-    <img src="D1.png" width="200"/><img src="cliff_effect.png" width="200"/>
+<img src="D1.png" width=300/><img src="cliff_effect.png" width=300>
 </center>
 
 ### Visulization
 Left: original image; middle: snr = 5 dB; Right: snr = 0 dB.
-<figure class="third">
-    <img src="ori.png" width="200"/><img src="snr5.png" width="200"/><img src="snr0.png" width="200"/>
+<figure>
+    <img src="ori.png" width=200/>
+    <img src="snr5.png" width=200/>
+    <img src="snr0.png" width=200/>
 </figure>
 
 ### Limitations
