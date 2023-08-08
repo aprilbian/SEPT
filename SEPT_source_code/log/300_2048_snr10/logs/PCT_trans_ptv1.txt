@@ -1,0 +1,1002 @@
+2023-05-17 16:52:37,477 - Model - INFO - PARAMETER ...
+2023-05-17 16:52:37,478 - Model - INFO - Namespace(batch_size=32, model='PCT_trans_ptv1', revise=True, snr=10, epoch=200, learning_rate=0.001, gpu='1', num_point=2048, optimizer='Adam', log_dir=None, decay_rate=0.0001, normal=False, bottleneck_size=300, recon_points=2048, cpu=False, multigpu=False, pretrained='', dataset_path='./shapenetv2')
+2023-05-17 16:52:37,478 - Model - INFO - Load dataset ...
+2023-05-17 16:52:39,563 - Model - INFO - No existing model, starting training from scratch...
+2023-05-17 16:52:39,564 - Model - INFO - No pretrained model
+2023-05-17 16:52:39,564 - Model - INFO - No existing optimizer
+2023-05-17 16:52:39,564 - Model - INFO - Start training...
+2023-05-17 16:52:39,564 - Model - INFO - Epoch 1 (1/200):
+2023-05-17 16:53:02,188 - Model - INFO - PARAMETER ...
+2023-05-17 16:53:02,188 - Model - INFO - Namespace(batch_size=32, model='PCT_trans_ptv1', revise=True, snr=10, epoch=200, learning_rate=0.001, gpu='1', num_point=2048, optimizer='Adam', log_dir=None, decay_rate=0.0001, normal=False, bottleneck_size=300, recon_points=2048, cpu=False, multigpu=False, pretrained='', dataset_path='./shapenetv2')
+2023-05-17 16:53:02,188 - Model - INFO - Load dataset ...
+2023-05-17 16:53:04,057 - Model - INFO - No existing model, starting training from scratch...
+2023-05-17 16:53:04,057 - Model - INFO - No pretrained model
+2023-05-17 16:53:04,057 - Model - INFO - No existing optimizer
+2023-05-17 16:53:04,057 - Model - INFO - Start training...
+2023-05-17 16:53:04,057 - Model - INFO - Epoch 1 (1/200):
+2023-05-17 16:53:21,345 - Model - INFO - PARAMETER ...
+2023-05-17 16:53:21,345 - Model - INFO - Namespace(batch_size=16, model='PCT_trans_ptv1', revise=True, snr=10, epoch=200, learning_rate=0.001, gpu='1', num_point=2048, optimizer='Adam', log_dir=None, decay_rate=0.0001, normal=False, bottleneck_size=300, recon_points=2048, cpu=False, multigpu=False, pretrained='', dataset_path='./shapenetv2')
+2023-05-17 16:53:21,345 - Model - INFO - Load dataset ...
+2023-05-17 16:53:23,260 - Model - INFO - No existing model, starting training from scratch...
+2023-05-17 16:53:23,260 - Model - INFO - No pretrained model
+2023-05-17 16:53:23,260 - Model - INFO - No existing optimizer
+2023-05-17 16:53:23,260 - Model - INFO - Start training...
+2023-05-17 16:53:23,260 - Model - INFO - Epoch 1 (1/200):
+2023-05-17 17:02:03,513 - Model - INFO - mean loss: 6.108152
+2023-05-17 17:02:03,514 - Model - INFO - mean chamfer distance: 0.006108
+2023-05-17 17:02:03,514 - Model - INFO - Start val...
+2023-05-17 17:02:51,161 - Model - INFO - val loss: 0.004030
+2023-05-17 17:02:51,161 - Model - INFO - val cd: 0.004030
+2023-05-17 17:02:51,163 - Model - INFO - Epoch 2 (2/200):
+2023-05-17 17:11:29,583 - Model - INFO - mean loss: 3.771755
+2023-05-17 17:11:29,583 - Model - INFO - mean chamfer distance: 0.003772
+2023-05-17 17:11:29,583 - Model - INFO - Epoch 3 (3/200):
+2023-05-17 17:20:08,194 - Model - INFO - mean loss: 3.396452
+2023-05-17 17:20:08,195 - Model - INFO - mean chamfer distance: 0.003396
+2023-05-17 17:20:08,195 - Model - INFO - Start val...
+2023-05-17 17:20:55,931 - Model - INFO - val loss: 0.003455
+2023-05-17 17:20:55,932 - Model - INFO - val cd: 0.003455
+2023-05-17 17:20:55,932 - Model - INFO - Epoch 4 (4/200):
+2023-05-17 17:29:34,032 - Model - INFO - mean loss: 3.144450
+2023-05-17 17:29:34,032 - Model - INFO - mean chamfer distance: 0.003144
+2023-05-17 17:29:34,032 - Model - INFO - Epoch 5 (5/200):
+2023-05-17 17:38:11,338 - Model - INFO - mean loss: 2.982901
+2023-05-17 17:38:11,338 - Model - INFO - mean chamfer distance: 0.002983
+2023-05-17 17:38:11,338 - Model - INFO - Start val...
+2023-05-17 17:38:59,033 - Model - INFO - val loss: 0.003013
+2023-05-17 17:38:59,034 - Model - INFO - val cd: 0.003013
+2023-05-17 17:38:59,034 - Model - INFO - Epoch 6 (6/200):
+2023-05-17 17:47:35,395 - Model - INFO - mean loss: 2.865309
+2023-05-17 17:47:35,396 - Model - INFO - mean chamfer distance: 0.002865
+2023-05-17 17:47:35,396 - Model - INFO - Epoch 7 (7/200):
+2023-05-17 17:56:12,592 - Model - INFO - mean loss: 2.760857
+2023-05-17 17:56:12,592 - Model - INFO - mean chamfer distance: 0.002761
+2023-05-17 17:56:12,592 - Model - INFO - Start val...
+2023-05-17 17:57:00,056 - Model - INFO - val loss: 0.002625
+2023-05-17 17:57:00,056 - Model - INFO - val cd: 0.002625
+2023-05-17 17:57:00,056 - Model - INFO - Epoch 8 (8/200):
+2023-05-17 18:05:38,891 - Model - INFO - mean loss: 2.664253
+2023-05-17 18:05:38,891 - Model - INFO - mean chamfer distance: 0.002664
+2023-05-17 18:05:38,891 - Model - INFO - Epoch 9 (9/200):
+2023-05-17 18:14:18,192 - Model - INFO - mean loss: 2.605750
+2023-05-17 18:14:18,192 - Model - INFO - mean chamfer distance: 0.002606
+2023-05-17 18:14:18,192 - Model - INFO - Start val...
+2023-05-17 18:15:05,898 - Model - INFO - val loss: 0.002518
+2023-05-17 18:15:05,898 - Model - INFO - val cd: 0.002518
+2023-05-17 18:15:05,899 - Model - INFO - Epoch 10 (10/200):
+2023-05-17 18:23:44,272 - Model - INFO - mean loss: 2.548104
+2023-05-17 18:23:44,273 - Model - INFO - mean chamfer distance: 0.002548
+2023-05-17 18:23:44,273 - Model - INFO - Epoch 11 (11/200):
+2023-05-17 18:32:22,058 - Model - INFO - mean loss: 2.506881
+2023-05-17 18:32:22,058 - Model - INFO - mean chamfer distance: 0.002507
+2023-05-17 18:32:22,058 - Model - INFO - Start val...
+2023-05-17 18:33:09,499 - Model - INFO - val loss: 0.002437
+2023-05-17 18:33:09,499 - Model - INFO - val cd: 0.002437
+2023-05-17 18:33:09,499 - Model - INFO - Epoch 12 (12/200):
+2023-05-17 18:41:46,861 - Model - INFO - mean loss: 2.452112
+2023-05-17 18:41:46,861 - Model - INFO - mean chamfer distance: 0.002452
+2023-05-17 18:41:46,861 - Model - INFO - Epoch 13 (13/200):
+2023-05-17 18:50:24,537 - Model - INFO - mean loss: 2.436751
+2023-05-17 18:50:24,537 - Model - INFO - mean chamfer distance: 0.002437
+2023-05-17 18:50:24,537 - Model - INFO - Start val...
+2023-05-17 18:51:12,206 - Model - INFO - val loss: 0.002310
+2023-05-17 18:51:12,207 - Model - INFO - val cd: 0.002310
+2023-05-17 18:51:12,207 - Model - INFO - Epoch 14 (14/200):
+2023-05-17 18:59:50,180 - Model - INFO - mean loss: 2.410681
+2023-05-17 18:59:50,181 - Model - INFO - mean chamfer distance: 0.002411
+2023-05-17 18:59:50,181 - Model - INFO - Epoch 15 (15/200):
+2023-05-17 19:08:27,843 - Model - INFO - mean loss: 2.381784
+2023-05-17 19:08:27,843 - Model - INFO - mean chamfer distance: 0.002382
+2023-05-17 19:08:27,843 - Model - INFO - Start val...
+2023-05-17 19:09:15,665 - Model - INFO - val loss: 0.002256
+2023-05-17 19:09:15,665 - Model - INFO - val cd: 0.002256
+2023-05-17 19:09:15,665 - Model - INFO - Epoch 16 (16/200):
+2023-05-17 19:17:53,969 - Model - INFO - mean loss: 2.372148
+2023-05-17 19:17:53,970 - Model - INFO - mean chamfer distance: 0.002372
+2023-05-17 19:17:53,970 - Model - INFO - Epoch 17 (17/200):
+2023-05-17 19:26:30,978 - Model - INFO - mean loss: 2.344026
+2023-05-17 19:26:30,978 - Model - INFO - mean chamfer distance: 0.002344
+2023-05-17 19:26:30,978 - Model - INFO - Start val...
+2023-05-17 19:27:18,559 - Model - INFO - val loss: 0.002362
+2023-05-17 19:27:18,560 - Model - INFO - val cd: 0.002362
+2023-05-17 19:27:18,560 - Model - INFO - Epoch 18 (18/200):
+2023-05-17 19:35:55,528 - Model - INFO - mean loss: 2.325873
+2023-05-17 19:35:55,528 - Model - INFO - mean chamfer distance: 0.002326
+2023-05-17 19:35:55,528 - Model - INFO - Epoch 19 (19/200):
+2023-05-17 19:44:32,502 - Model - INFO - mean loss: 2.304850
+2023-05-17 19:44:32,502 - Model - INFO - mean chamfer distance: 0.002305
+2023-05-17 19:44:32,502 - Model - INFO - Start val...
+2023-05-17 19:45:20,241 - Model - INFO - val loss: 0.002253
+2023-05-17 19:45:20,241 - Model - INFO - val cd: 0.002253
+2023-05-17 19:45:20,242 - Model - INFO - Epoch 20 (20/200):
+2023-05-17 19:53:58,239 - Model - INFO - mean loss: 2.059333
+2023-05-17 19:53:58,239 - Model - INFO - mean chamfer distance: 0.002059
+2023-05-17 19:53:58,239 - Model - INFO - Epoch 21 (21/200):
+2023-05-17 20:02:43,040 - Model - INFO - mean loss: 2.005731
+2023-05-17 20:02:43,040 - Model - INFO - mean chamfer distance: 0.002006
+2023-05-17 20:02:43,040 - Model - INFO - Start val...
+2023-05-17 20:03:31,874 - Model - INFO - val loss: 0.001985
+2023-05-17 20:03:31,874 - Model - INFO - val cd: 0.001985
+2023-05-17 20:03:31,874 - Model - INFO - Epoch 22 (22/200):
+2023-05-17 20:12:19,132 - Model - INFO - mean loss: 1.989484
+2023-05-17 20:12:19,132 - Model - INFO - mean chamfer distance: 0.001989
+2023-05-17 20:12:19,132 - Model - INFO - Epoch 23 (23/200):
+2023-05-17 20:21:05,079 - Model - INFO - mean loss: 1.971821
+2023-05-17 20:21:05,079 - Model - INFO - mean chamfer distance: 0.001972
+2023-05-17 20:21:05,079 - Model - INFO - Start val...
+2023-05-17 20:21:53,860 - Model - INFO - val loss: 0.002023
+2023-05-17 20:21:53,860 - Model - INFO - val cd: 0.002023
+2023-05-17 20:21:53,861 - Model - INFO - Epoch 24 (24/200):
+2023-05-17 20:30:39,479 - Model - INFO - mean loss: 1.977137
+2023-05-17 20:30:39,479 - Model - INFO - mean chamfer distance: 0.001977
+2023-05-17 20:30:39,479 - Model - INFO - Epoch 25 (25/200):
+2023-05-17 20:39:24,776 - Model - INFO - mean loss: 1.950673
+2023-05-17 20:39:24,776 - Model - INFO - mean chamfer distance: 0.001951
+2023-05-17 20:39:24,776 - Model - INFO - Start val...
+2023-05-17 20:40:13,581 - Model - INFO - val loss: 0.001979
+2023-05-17 20:40:13,581 - Model - INFO - val cd: 0.001979
+2023-05-17 20:40:13,582 - Model - INFO - Epoch 26 (26/200):
+2023-05-17 20:49:00,645 - Model - INFO - mean loss: 1.956550
+2023-05-17 20:49:00,645 - Model - INFO - mean chamfer distance: 0.001957
+2023-05-17 20:49:00,645 - Model - INFO - Epoch 27 (27/200):
+2023-05-17 20:57:46,444 - Model - INFO - mean loss: 1.948147
+2023-05-17 20:57:46,445 - Model - INFO - mean chamfer distance: 0.001948
+2023-05-17 20:57:46,445 - Model - INFO - Start val...
+2023-05-17 20:58:35,027 - Model - INFO - val loss: 0.001964
+2023-05-17 20:58:35,028 - Model - INFO - val cd: 0.001964
+2023-05-17 20:58:35,028 - Model - INFO - Epoch 28 (28/200):
+2023-05-17 21:07:22,436 - Model - INFO - mean loss: 1.937782
+2023-05-17 21:07:22,436 - Model - INFO - mean chamfer distance: 0.001938
+2023-05-17 21:07:22,436 - Model - INFO - Epoch 29 (29/200):
+2023-05-17 21:16:07,902 - Model - INFO - mean loss: 1.933170
+2023-05-17 21:16:07,902 - Model - INFO - mean chamfer distance: 0.001933
+2023-05-17 21:16:07,902 - Model - INFO - Start val...
+2023-05-17 21:16:56,409 - Model - INFO - val loss: 0.001981
+2023-05-17 21:16:56,409 - Model - INFO - val cd: 0.001981
+2023-05-17 21:16:56,409 - Model - INFO - Epoch 30 (30/200):
+2023-05-17 21:25:41,763 - Model - INFO - mean loss: 1.922696
+2023-05-17 21:25:41,763 - Model - INFO - mean chamfer distance: 0.001923
+2023-05-17 21:25:41,763 - Model - INFO - Epoch 31 (31/200):
+2023-05-17 21:34:27,213 - Model - INFO - mean loss: 1.923594
+2023-05-17 21:34:27,213 - Model - INFO - mean chamfer distance: 0.001924
+2023-05-17 21:34:27,213 - Model - INFO - Start val...
+2023-05-17 21:35:15,815 - Model - INFO - val loss: 0.001906
+2023-05-17 21:35:15,815 - Model - INFO - val cd: 0.001906
+2023-05-17 21:35:15,816 - Model - INFO - Save model...
+2023-05-17 21:35:15,816 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-17 21:35:15,997 - Model - INFO - Epoch 32 (32/200):
+2023-05-17 21:44:01,036 - Model - INFO - mean loss: 1.922236
+2023-05-17 21:44:01,036 - Model - INFO - mean chamfer distance: 0.001922
+2023-05-17 21:44:01,036 - Model - INFO - Epoch 33 (33/200):
+2023-05-17 21:52:47,532 - Model - INFO - mean loss: 1.924531
+2023-05-17 21:52:47,532 - Model - INFO - mean chamfer distance: 0.001925
+2023-05-17 21:52:47,532 - Model - INFO - Start val...
+2023-05-17 21:53:36,371 - Model - INFO - val loss: 0.001936
+2023-05-17 21:53:36,371 - Model - INFO - val cd: 0.001936
+2023-05-17 21:53:36,371 - Model - INFO - Epoch 34 (34/200):
+2023-05-17 22:02:21,113 - Model - INFO - mean loss: 1.917423
+2023-05-17 22:02:21,114 - Model - INFO - mean chamfer distance: 0.001917
+2023-05-17 22:02:21,114 - Model - INFO - Epoch 35 (35/200):
+2023-05-17 22:11:06,871 - Model - INFO - mean loss: 1.915225
+2023-05-17 22:11:06,871 - Model - INFO - mean chamfer distance: 0.001915
+2023-05-17 22:11:06,871 - Model - INFO - Start val...
+2023-05-17 22:11:55,571 - Model - INFO - val loss: 0.001932
+2023-05-17 22:11:55,572 - Model - INFO - val cd: 0.001932
+2023-05-17 22:11:55,572 - Model - INFO - Epoch 36 (36/200):
+2023-05-17 22:20:40,813 - Model - INFO - mean loss: 1.904335
+2023-05-17 22:20:40,814 - Model - INFO - mean chamfer distance: 0.001904
+2023-05-17 22:20:40,814 - Model - INFO - Epoch 37 (37/200):
+2023-05-17 22:29:26,270 - Model - INFO - mean loss: 1.911182
+2023-05-17 22:29:26,270 - Model - INFO - mean chamfer distance: 0.001911
+2023-05-17 22:29:26,270 - Model - INFO - Start val...
+2023-05-17 22:30:15,152 - Model - INFO - val loss: 0.001907
+2023-05-17 22:30:15,152 - Model - INFO - val cd: 0.001907
+2023-05-17 22:30:15,152 - Model - INFO - Epoch 38 (38/200):
+2023-05-17 22:39:00,643 - Model - INFO - mean loss: 1.895201
+2023-05-17 22:39:00,643 - Model - INFO - mean chamfer distance: 0.001895
+2023-05-17 22:39:00,643 - Model - INFO - Epoch 39 (39/200):
+2023-05-17 22:47:47,224 - Model - INFO - mean loss: 1.897895
+2023-05-17 22:47:47,224 - Model - INFO - mean chamfer distance: 0.001898
+2023-05-17 22:47:47,224 - Model - INFO - Start val...
+2023-05-17 22:48:35,841 - Model - INFO - val loss: 0.001969
+2023-05-17 22:48:35,841 - Model - INFO - val cd: 0.001969
+2023-05-17 22:48:35,842 - Model - INFO - Epoch 40 (40/200):
+2023-05-17 22:57:20,920 - Model - INFO - mean loss: 1.776444
+2023-05-17 22:57:20,921 - Model - INFO - mean chamfer distance: 0.001776
+2023-05-17 22:57:20,921 - Model - INFO - Epoch 41 (41/200):
+2023-05-17 23:06:06,638 - Model - INFO - mean loss: 1.737441
+2023-05-17 23:06:06,638 - Model - INFO - mean chamfer distance: 0.001737
+2023-05-17 23:06:06,638 - Model - INFO - Start val...
+2023-05-17 23:06:55,102 - Model - INFO - val loss: 0.001790
+2023-05-17 23:06:55,102 - Model - INFO - val cd: 0.001790
+2023-05-17 23:06:55,102 - Model - INFO - Save model...
+2023-05-17 23:06:55,103 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-17 23:06:55,350 - Model - INFO - Epoch 42 (42/200):
+2023-05-17 23:15:41,655 - Model - INFO - mean loss: 1.726088
+2023-05-17 23:15:41,655 - Model - INFO - mean chamfer distance: 0.001726
+2023-05-17 23:15:41,655 - Model - INFO - Epoch 43 (43/200):
+2023-05-17 23:24:27,924 - Model - INFO - mean loss: 1.716010
+2023-05-17 23:24:27,924 - Model - INFO - mean chamfer distance: 0.001716
+2023-05-17 23:24:27,924 - Model - INFO - Start val...
+2023-05-17 23:25:16,576 - Model - INFO - val loss: 0.001774
+2023-05-17 23:25:16,576 - Model - INFO - val cd: 0.001774
+2023-05-17 23:25:16,576 - Model - INFO - Save model...
+2023-05-17 23:25:16,576 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-17 23:25:16,840 - Model - INFO - Epoch 44 (44/200):
+2023-05-17 23:34:02,504 - Model - INFO - mean loss: 1.705763
+2023-05-17 23:34:02,505 - Model - INFO - mean chamfer distance: 0.001706
+2023-05-17 23:34:02,505 - Model - INFO - Epoch 45 (45/200):
+2023-05-17 23:42:46,301 - Model - INFO - mean loss: 1.704760
+2023-05-17 23:42:46,301 - Model - INFO - mean chamfer distance: 0.001705
+2023-05-17 23:42:46,301 - Model - INFO - Start val...
+2023-05-17 23:43:35,024 - Model - INFO - val loss: 0.001756
+2023-05-17 23:43:35,024 - Model - INFO - val cd: 0.001756
+2023-05-17 23:43:35,024 - Model - INFO - Save model...
+2023-05-17 23:43:35,024 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-17 23:43:35,296 - Model - INFO - Epoch 46 (46/200):
+2023-05-17 23:52:21,842 - Model - INFO - mean loss: 1.694433
+2023-05-17 23:52:21,842 - Model - INFO - mean chamfer distance: 0.001694
+2023-05-17 23:52:21,842 - Model - INFO - Epoch 47 (47/200):
+2023-05-18 00:01:08,638 - Model - INFO - mean loss: 1.692465
+2023-05-18 00:01:08,638 - Model - INFO - mean chamfer distance: 0.001692
+2023-05-18 00:01:08,639 - Model - INFO - Start val...
+2023-05-18 00:01:57,766 - Model - INFO - val loss: 0.001754
+2023-05-18 00:01:57,766 - Model - INFO - val cd: 0.001754
+2023-05-18 00:01:57,766 - Model - INFO - Save model...
+2023-05-18 00:01:57,767 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 00:01:58,011 - Model - INFO - Epoch 48 (48/200):
+2023-05-18 00:10:44,476 - Model - INFO - mean loss: 1.686570
+2023-05-18 00:10:44,476 - Model - INFO - mean chamfer distance: 0.001687
+2023-05-18 00:10:44,476 - Model - INFO - Epoch 49 (49/200):
+2023-05-18 00:19:29,880 - Model - INFO - mean loss: 1.688238
+2023-05-18 00:19:29,880 - Model - INFO - mean chamfer distance: 0.001688
+2023-05-18 00:19:29,880 - Model - INFO - Start val...
+2023-05-18 00:20:18,550 - Model - INFO - val loss: 0.001764
+2023-05-18 00:20:18,550 - Model - INFO - val cd: 0.001764
+2023-05-18 00:20:18,551 - Model - INFO - Epoch 50 (50/200):
+2023-05-18 00:29:04,484 - Model - INFO - mean loss: 1.677893
+2023-05-18 00:29:04,484 - Model - INFO - mean chamfer distance: 0.001678
+2023-05-18 00:29:04,484 - Model - INFO - Epoch 51 (51/200):
+2023-05-18 00:37:50,188 - Model - INFO - mean loss: 1.679967
+2023-05-18 00:37:50,188 - Model - INFO - mean chamfer distance: 0.001680
+2023-05-18 00:37:50,188 - Model - INFO - Start val...
+2023-05-18 00:38:39,225 - Model - INFO - val loss: 0.001746
+2023-05-18 00:38:39,225 - Model - INFO - val cd: 0.001746
+2023-05-18 00:38:39,225 - Model - INFO - Save model...
+2023-05-18 00:38:39,226 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 00:38:39,455 - Model - INFO - Epoch 52 (52/200):
+2023-05-18 00:47:25,466 - Model - INFO - mean loss: 1.679170
+2023-05-18 00:47:25,466 - Model - INFO - mean chamfer distance: 0.001679
+2023-05-18 00:47:25,466 - Model - INFO - Epoch 53 (53/200):
+2023-05-18 00:56:11,464 - Model - INFO - mean loss: 1.677646
+2023-05-18 00:56:11,464 - Model - INFO - mean chamfer distance: 0.001678
+2023-05-18 00:56:11,464 - Model - INFO - Start val...
+2023-05-18 00:57:00,076 - Model - INFO - val loss: 0.001754
+2023-05-18 00:57:00,076 - Model - INFO - val cd: 0.001754
+2023-05-18 00:57:00,076 - Model - INFO - Epoch 54 (54/200):
+2023-05-18 01:05:46,010 - Model - INFO - mean loss: 1.669994
+2023-05-18 01:05:46,010 - Model - INFO - mean chamfer distance: 0.001670
+2023-05-18 01:05:46,010 - Model - INFO - Epoch 55 (55/200):
+2023-05-18 01:14:31,823 - Model - INFO - mean loss: 1.677443
+2023-05-18 01:14:31,823 - Model - INFO - mean chamfer distance: 0.001677
+2023-05-18 01:14:31,823 - Model - INFO - Start val...
+2023-05-18 01:15:20,370 - Model - INFO - val loss: 0.001745
+2023-05-18 01:15:20,370 - Model - INFO - val cd: 0.001745
+2023-05-18 01:15:20,371 - Model - INFO - Save model...
+2023-05-18 01:15:20,371 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 01:15:20,701 - Model - INFO - Epoch 56 (56/200):
+2023-05-18 01:24:06,023 - Model - INFO - mean loss: 1.669580
+2023-05-18 01:24:06,023 - Model - INFO - mean chamfer distance: 0.001670
+2023-05-18 01:24:06,023 - Model - INFO - Epoch 57 (57/200):
+2023-05-18 01:32:51,575 - Model - INFO - mean loss: 1.671661
+2023-05-18 01:32:51,575 - Model - INFO - mean chamfer distance: 0.001672
+2023-05-18 01:32:51,576 - Model - INFO - Start val...
+2023-05-18 01:33:40,171 - Model - INFO - val loss: 0.001769
+2023-05-18 01:33:40,171 - Model - INFO - val cd: 0.001769
+2023-05-18 01:33:40,171 - Model - INFO - Epoch 58 (58/200):
+2023-05-18 01:42:26,791 - Model - INFO - mean loss: 1.666544
+2023-05-18 01:42:26,791 - Model - INFO - mean chamfer distance: 0.001667
+2023-05-18 01:42:26,791 - Model - INFO - Epoch 59 (59/200):
+2023-05-18 01:51:12,968 - Model - INFO - mean loss: 1.672254
+2023-05-18 01:51:12,968 - Model - INFO - mean chamfer distance: 0.001672
+2023-05-18 01:51:12,968 - Model - INFO - Start val...
+2023-05-18 01:52:01,781 - Model - INFO - val loss: 0.001742
+2023-05-18 01:52:01,782 - Model - INFO - val cd: 0.001742
+2023-05-18 01:52:01,782 - Model - INFO - Save model...
+2023-05-18 01:52:01,782 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 01:52:02,042 - Model - INFO - Epoch 60 (60/200):
+2023-05-18 02:00:48,876 - Model - INFO - mean loss: 1.597426
+2023-05-18 02:00:48,876 - Model - INFO - mean chamfer distance: 0.001597
+2023-05-18 02:00:48,877 - Model - INFO - Epoch 61 (61/200):
+2023-05-18 02:09:36,038 - Model - INFO - mean loss: 1.573514
+2023-05-18 02:09:36,038 - Model - INFO - mean chamfer distance: 0.001574
+2023-05-18 02:09:36,038 - Model - INFO - Start val...
+2023-05-18 02:10:25,374 - Model - INFO - val loss: 0.001672
+2023-05-18 02:10:25,374 - Model - INFO - val cd: 0.001672
+2023-05-18 02:10:25,375 - Model - INFO - Save model...
+2023-05-18 02:10:25,375 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 02:10:25,721 - Model - INFO - Epoch 62 (62/200):
+2023-05-18 02:19:11,678 - Model - INFO - mean loss: 1.565529
+2023-05-18 02:19:11,678 - Model - INFO - mean chamfer distance: 0.001566
+2023-05-18 02:19:11,678 - Model - INFO - Epoch 63 (63/200):
+2023-05-18 02:27:56,731 - Model - INFO - mean loss: 1.556723
+2023-05-18 02:27:56,732 - Model - INFO - mean chamfer distance: 0.001557
+2023-05-18 02:27:56,732 - Model - INFO - Start val...
+2023-05-18 02:28:45,718 - Model - INFO - val loss: 0.001654
+2023-05-18 02:28:45,719 - Model - INFO - val cd: 0.001654
+2023-05-18 02:28:45,719 - Model - INFO - Save model...
+2023-05-18 02:28:45,719 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 02:28:45,959 - Model - INFO - Epoch 64 (64/200):
+2023-05-18 02:37:30,917 - Model - INFO - mean loss: 1.551653
+2023-05-18 02:37:30,917 - Model - INFO - mean chamfer distance: 0.001552
+2023-05-18 02:37:30,917 - Model - INFO - Epoch 65 (65/200):
+2023-05-18 02:46:16,220 - Model - INFO - mean loss: 1.549178
+2023-05-18 02:46:16,220 - Model - INFO - mean chamfer distance: 0.001549
+2023-05-18 02:46:16,220 - Model - INFO - Start val...
+2023-05-18 02:47:05,060 - Model - INFO - val loss: 0.001659
+2023-05-18 02:47:05,060 - Model - INFO - val cd: 0.001659
+2023-05-18 02:47:05,060 - Model - INFO - Epoch 66 (66/200):
+2023-05-18 02:55:50,236 - Model - INFO - mean loss: 1.544148
+2023-05-18 02:55:50,236 - Model - INFO - mean chamfer distance: 0.001544
+2023-05-18 02:55:50,237 - Model - INFO - Epoch 67 (67/200):
+2023-05-18 03:04:35,012 - Model - INFO - mean loss: 1.540494
+2023-05-18 03:04:35,013 - Model - INFO - mean chamfer distance: 0.001540
+2023-05-18 03:04:35,013 - Model - INFO - Start val...
+2023-05-18 03:05:23,694 - Model - INFO - val loss: 0.001657
+2023-05-18 03:05:23,694 - Model - INFO - val cd: 0.001657
+2023-05-18 03:05:23,694 - Model - INFO - Epoch 68 (68/200):
+2023-05-18 03:14:08,589 - Model - INFO - mean loss: 1.540116
+2023-05-18 03:14:08,589 - Model - INFO - mean chamfer distance: 0.001540
+2023-05-18 03:14:08,589 - Model - INFO - Epoch 69 (69/200):
+2023-05-18 03:22:53,850 - Model - INFO - mean loss: 1.534005
+2023-05-18 03:22:53,850 - Model - INFO - mean chamfer distance: 0.001534
+2023-05-18 03:22:53,850 - Model - INFO - Start val...
+2023-05-18 03:23:42,407 - Model - INFO - val loss: 0.001655
+2023-05-18 03:23:42,407 - Model - INFO - val cd: 0.001655
+2023-05-18 03:23:42,407 - Model - INFO - Epoch 70 (70/200):
+2023-05-18 03:32:26,571 - Model - INFO - mean loss: 1.534986
+2023-05-18 03:32:26,571 - Model - INFO - mean chamfer distance: 0.001535
+2023-05-18 03:32:26,571 - Model - INFO - Epoch 71 (71/200):
+2023-05-18 03:41:12,479 - Model - INFO - mean loss: 1.535646
+2023-05-18 03:41:12,479 - Model - INFO - mean chamfer distance: 0.001536
+2023-05-18 03:41:12,479 - Model - INFO - Start val...
+2023-05-18 03:42:01,287 - Model - INFO - val loss: 0.001655
+2023-05-18 03:42:01,287 - Model - INFO - val cd: 0.001655
+2023-05-18 03:42:01,288 - Model - INFO - Epoch 72 (72/200):
+2023-05-18 03:50:46,530 - Model - INFO - mean loss: 1.530133
+2023-05-18 03:50:46,530 - Model - INFO - mean chamfer distance: 0.001530
+2023-05-18 03:50:46,530 - Model - INFO - Epoch 73 (73/200):
+2023-05-18 03:59:31,102 - Model - INFO - mean loss: 1.531729
+2023-05-18 03:59:31,103 - Model - INFO - mean chamfer distance: 0.001532
+2023-05-18 03:59:31,103 - Model - INFO - Start val...
+2023-05-18 04:00:19,938 - Model - INFO - val loss: 0.001650
+2023-05-18 04:00:19,939 - Model - INFO - val cd: 0.001650
+2023-05-18 04:00:19,939 - Model - INFO - Save model...
+2023-05-18 04:00:19,939 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 04:00:20,202 - Model - INFO - Epoch 74 (74/200):
+2023-05-18 04:09:05,812 - Model - INFO - mean loss: 1.528516
+2023-05-18 04:09:05,812 - Model - INFO - mean chamfer distance: 0.001529
+2023-05-18 04:09:05,812 - Model - INFO - Epoch 75 (75/200):
+2023-05-18 04:17:50,251 - Model - INFO - mean loss: 1.526871
+2023-05-18 04:17:50,251 - Model - INFO - mean chamfer distance: 0.001527
+2023-05-18 04:17:50,251 - Model - INFO - Start val...
+2023-05-18 04:18:38,948 - Model - INFO - val loss: 0.001650
+2023-05-18 04:18:38,948 - Model - INFO - val cd: 0.001650
+2023-05-18 04:18:38,948 - Model - INFO - Save model...
+2023-05-18 04:18:38,948 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 04:18:39,210 - Model - INFO - Epoch 76 (76/200):
+2023-05-18 04:27:24,392 - Model - INFO - mean loss: 1.523270
+2023-05-18 04:27:24,392 - Model - INFO - mean chamfer distance: 0.001523
+2023-05-18 04:27:24,393 - Model - INFO - Epoch 77 (77/200):
+2023-05-18 04:36:10,008 - Model - INFO - mean loss: 1.523484
+2023-05-18 04:36:10,008 - Model - INFO - mean chamfer distance: 0.001523
+2023-05-18 04:36:10,008 - Model - INFO - Start val...
+2023-05-18 04:36:58,725 - Model - INFO - val loss: 0.001654
+2023-05-18 04:36:58,726 - Model - INFO - val cd: 0.001654
+2023-05-18 04:36:58,726 - Model - INFO - Epoch 78 (78/200):
+2023-05-18 04:45:44,172 - Model - INFO - mean loss: 1.521509
+2023-05-18 04:45:44,172 - Model - INFO - mean chamfer distance: 0.001522
+2023-05-18 04:45:44,172 - Model - INFO - Epoch 79 (79/200):
+2023-05-18 04:54:29,541 - Model - INFO - mean loss: 1.521524
+2023-05-18 04:54:29,542 - Model - INFO - mean chamfer distance: 0.001522
+2023-05-18 04:54:29,542 - Model - INFO - Start val...
+2023-05-18 04:55:18,109 - Model - INFO - val loss: 0.001652
+2023-05-18 04:55:18,109 - Model - INFO - val cd: 0.001652
+2023-05-18 04:55:18,110 - Model - INFO - Epoch 80 (80/200):
+2023-05-18 05:04:03,684 - Model - INFO - mean loss: 1.485197
+2023-05-18 05:04:03,684 - Model - INFO - mean chamfer distance: 0.001485
+2023-05-18 05:04:03,684 - Model - INFO - Epoch 81 (81/200):
+2023-05-18 05:12:49,848 - Model - INFO - mean loss: 1.466805
+2023-05-18 05:12:49,848 - Model - INFO - mean chamfer distance: 0.001467
+2023-05-18 05:12:49,848 - Model - INFO - Start val...
+2023-05-18 05:13:38,619 - Model - INFO - val loss: 0.001619
+2023-05-18 05:13:38,619 - Model - INFO - val cd: 0.001619
+2023-05-18 05:13:38,620 - Model - INFO - Save model...
+2023-05-18 05:13:38,620 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 05:13:38,882 - Model - INFO - Epoch 82 (82/200):
+2023-05-18 05:22:24,261 - Model - INFO - mean loss: 1.460593
+2023-05-18 05:22:24,261 - Model - INFO - mean chamfer distance: 0.001461
+2023-05-18 05:22:24,261 - Model - INFO - Epoch 83 (83/200):
+2023-05-18 05:31:10,740 - Model - INFO - mean loss: 1.456308
+2023-05-18 05:31:10,740 - Model - INFO - mean chamfer distance: 0.001456
+2023-05-18 05:31:10,740 - Model - INFO - Start val...
+2023-05-18 05:31:59,360 - Model - INFO - val loss: 0.001622
+2023-05-18 05:31:59,360 - Model - INFO - val cd: 0.001622
+2023-05-18 05:31:59,361 - Model - INFO - Epoch 84 (84/200):
+2023-05-18 05:40:45,748 - Model - INFO - mean loss: 1.453245
+2023-05-18 05:40:45,749 - Model - INFO - mean chamfer distance: 0.001453
+2023-05-18 05:40:45,749 - Model - INFO - Epoch 85 (85/200):
+2023-05-18 05:49:31,458 - Model - INFO - mean loss: 1.450882
+2023-05-18 05:49:31,458 - Model - INFO - mean chamfer distance: 0.001451
+2023-05-18 05:49:31,458 - Model - INFO - Start val...
+2023-05-18 05:50:20,208 - Model - INFO - val loss: 0.001613
+2023-05-18 05:50:20,208 - Model - INFO - val cd: 0.001613
+2023-05-18 05:50:20,208 - Model - INFO - Save model...
+2023-05-18 05:50:20,209 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 05:50:20,459 - Model - INFO - Epoch 86 (86/200):
+2023-05-18 05:59:05,349 - Model - INFO - mean loss: 1.447252
+2023-05-18 05:59:05,349 - Model - INFO - mean chamfer distance: 0.001447
+2023-05-18 05:59:05,349 - Model - INFO - Epoch 87 (87/200):
+2023-05-18 06:07:51,805 - Model - INFO - mean loss: 1.445045
+2023-05-18 06:07:51,805 - Model - INFO - mean chamfer distance: 0.001445
+2023-05-18 06:07:51,805 - Model - INFO - Start val...
+2023-05-18 06:08:40,703 - Model - INFO - val loss: 0.001606
+2023-05-18 06:08:40,703 - Model - INFO - val cd: 0.001606
+2023-05-18 06:08:40,703 - Model - INFO - Save model...
+2023-05-18 06:08:40,703 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 06:08:40,969 - Model - INFO - Epoch 88 (88/200):
+2023-05-18 06:17:27,391 - Model - INFO - mean loss: 1.443347
+2023-05-18 06:17:27,391 - Model - INFO - mean chamfer distance: 0.001443
+2023-05-18 06:17:27,391 - Model - INFO - Epoch 89 (89/200):
+2023-05-18 06:26:13,019 - Model - INFO - mean loss: 1.441227
+2023-05-18 06:26:13,020 - Model - INFO - mean chamfer distance: 0.001441
+2023-05-18 06:26:13,020 - Model - INFO - Start val...
+2023-05-18 06:27:01,948 - Model - INFO - val loss: 0.001606
+2023-05-18 06:27:01,948 - Model - INFO - val cd: 0.001606
+2023-05-18 06:27:01,948 - Model - INFO - Epoch 90 (90/200):
+2023-05-18 06:35:48,188 - Model - INFO - mean loss: 1.438669
+2023-05-18 06:35:48,188 - Model - INFO - mean chamfer distance: 0.001439
+2023-05-18 06:35:48,188 - Model - INFO - Epoch 91 (91/200):
+2023-05-18 06:44:35,155 - Model - INFO - mean loss: 1.438224
+2023-05-18 06:44:35,155 - Model - INFO - mean chamfer distance: 0.001438
+2023-05-18 06:44:35,156 - Model - INFO - Start val...
+2023-05-18 06:45:23,827 - Model - INFO - val loss: 0.001610
+2023-05-18 06:45:23,827 - Model - INFO - val cd: 0.001610
+2023-05-18 06:45:23,828 - Model - INFO - Epoch 92 (92/200):
+2023-05-18 06:54:09,072 - Model - INFO - mean loss: 1.439493
+2023-05-18 06:54:09,073 - Model - INFO - mean chamfer distance: 0.001439
+2023-05-18 06:54:09,073 - Model - INFO - Epoch 93 (93/200):
+2023-05-18 07:02:54,899 - Model - INFO - mean loss: 1.434854
+2023-05-18 07:02:54,899 - Model - INFO - mean chamfer distance: 0.001435
+2023-05-18 07:02:54,899 - Model - INFO - Start val...
+2023-05-18 07:03:43,515 - Model - INFO - val loss: 0.001606
+2023-05-18 07:03:43,515 - Model - INFO - val cd: 0.001606
+2023-05-18 07:03:43,515 - Model - INFO - Save model...
+2023-05-18 07:03:43,515 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 07:03:43,767 - Model - INFO - Epoch 94 (94/200):
+2023-05-18 07:12:29,100 - Model - INFO - mean loss: 1.433200
+2023-05-18 07:12:29,100 - Model - INFO - mean chamfer distance: 0.001433
+2023-05-18 07:12:29,100 - Model - INFO - Epoch 95 (95/200):
+2023-05-18 07:21:14,099 - Model - INFO - mean loss: 1.431949
+2023-05-18 07:21:14,099 - Model - INFO - mean chamfer distance: 0.001432
+2023-05-18 07:21:14,099 - Model - INFO - Start val...
+2023-05-18 07:22:02,725 - Model - INFO - val loss: 0.001604
+2023-05-18 07:22:02,725 - Model - INFO - val cd: 0.001604
+2023-05-18 07:22:02,726 - Model - INFO - Save model...
+2023-05-18 07:22:02,726 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 07:22:03,046 - Model - INFO - Epoch 96 (96/200):
+2023-05-18 07:30:48,739 - Model - INFO - mean loss: 1.431039
+2023-05-18 07:30:48,739 - Model - INFO - mean chamfer distance: 0.001431
+2023-05-18 07:30:48,739 - Model - INFO - Epoch 97 (97/200):
+2023-05-18 07:39:33,799 - Model - INFO - mean loss: 1.428819
+2023-05-18 07:39:33,799 - Model - INFO - mean chamfer distance: 0.001429
+2023-05-18 07:39:33,799 - Model - INFO - Start val...
+2023-05-18 07:40:22,765 - Model - INFO - val loss: 0.001609
+2023-05-18 07:40:22,765 - Model - INFO - val cd: 0.001609
+2023-05-18 07:40:22,765 - Model - INFO - Epoch 98 (98/200):
+2023-05-18 07:49:07,768 - Model - INFO - mean loss: 1.429108
+2023-05-18 07:49:07,768 - Model - INFO - mean chamfer distance: 0.001429
+2023-05-18 07:49:07,768 - Model - INFO - Epoch 99 (99/200):
+2023-05-18 07:57:54,968 - Model - INFO - mean loss: 1.425546
+2023-05-18 07:57:54,968 - Model - INFO - mean chamfer distance: 0.001426
+2023-05-18 07:57:54,968 - Model - INFO - Start val...
+2023-05-18 07:58:43,894 - Model - INFO - val loss: 0.001602
+2023-05-18 07:58:43,894 - Model - INFO - val cd: 0.001602
+2023-05-18 07:58:43,894 - Model - INFO - Save model...
+2023-05-18 07:58:43,894 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 07:58:44,175 - Model - INFO - Epoch 100 (100/200):
+2023-05-18 08:07:30,687 - Model - INFO - mean loss: 1.405031
+2023-05-18 08:07:30,688 - Model - INFO - mean chamfer distance: 0.001405
+2023-05-18 08:07:30,688 - Model - INFO - Epoch 101 (101/200):
+2023-05-18 08:16:15,676 - Model - INFO - mean loss: 1.396813
+2023-05-18 08:16:15,677 - Model - INFO - mean chamfer distance: 0.001397
+2023-05-18 08:16:15,677 - Model - INFO - Start val...
+2023-05-18 08:17:04,310 - Model - INFO - val loss: 0.001591
+2023-05-18 08:17:04,310 - Model - INFO - val cd: 0.001591
+2023-05-18 08:17:04,310 - Model - INFO - Save model...
+2023-05-18 08:17:04,311 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 08:17:04,584 - Model - INFO - Epoch 102 (102/200):
+2023-05-18 08:25:50,082 - Model - INFO - mean loss: 1.392742
+2023-05-18 08:25:50,082 - Model - INFO - mean chamfer distance: 0.001393
+2023-05-18 08:25:50,082 - Model - INFO - Epoch 103 (103/200):
+2023-05-18 08:34:34,645 - Model - INFO - mean loss: 1.390189
+2023-05-18 08:34:34,645 - Model - INFO - mean chamfer distance: 0.001390
+2023-05-18 08:34:34,645 - Model - INFO - Start val...
+2023-05-18 08:35:23,097 - Model - INFO - val loss: 0.001587
+2023-05-18 08:35:23,097 - Model - INFO - val cd: 0.001587
+2023-05-18 08:35:23,097 - Model - INFO - Save model...
+2023-05-18 08:35:23,097 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 08:35:23,406 - Model - INFO - Epoch 104 (104/200):
+2023-05-18 08:44:09,016 - Model - INFO - mean loss: 1.388280
+2023-05-18 08:44:09,016 - Model - INFO - mean chamfer distance: 0.001388
+2023-05-18 08:44:09,016 - Model - INFO - Epoch 105 (105/200):
+2023-05-18 08:52:54,191 - Model - INFO - mean loss: 1.385035
+2023-05-18 08:52:54,191 - Model - INFO - mean chamfer distance: 0.001385
+2023-05-18 08:52:54,191 - Model - INFO - Start val...
+2023-05-18 08:53:42,808 - Model - INFO - val loss: 0.001586
+2023-05-18 08:53:42,808 - Model - INFO - val cd: 0.001586
+2023-05-18 08:53:42,808 - Model - INFO - Save model...
+2023-05-18 08:53:42,808 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 08:53:43,066 - Model - INFO - Epoch 106 (106/200):
+2023-05-18 09:02:28,251 - Model - INFO - mean loss: 1.384504
+2023-05-18 09:02:28,251 - Model - INFO - mean chamfer distance: 0.001385
+2023-05-18 09:02:28,251 - Model - INFO - Epoch 107 (107/200):
+2023-05-18 09:11:13,518 - Model - INFO - mean loss: 1.382474
+2023-05-18 09:11:13,519 - Model - INFO - mean chamfer distance: 0.001382
+2023-05-18 09:11:13,519 - Model - INFO - Start val...
+2023-05-18 09:12:02,330 - Model - INFO - val loss: 0.001592
+2023-05-18 09:12:02,330 - Model - INFO - val cd: 0.001592
+2023-05-18 09:12:02,330 - Model - INFO - Epoch 108 (108/200):
+2023-05-18 09:20:46,971 - Model - INFO - mean loss: 1.381015
+2023-05-18 09:20:46,971 - Model - INFO - mean chamfer distance: 0.001381
+2023-05-18 09:20:46,972 - Model - INFO - Epoch 109 (109/200):
+2023-05-18 09:29:32,563 - Model - INFO - mean loss: 1.380100
+2023-05-18 09:29:32,564 - Model - INFO - mean chamfer distance: 0.001380
+2023-05-18 09:29:32,564 - Model - INFO - Start val...
+2023-05-18 09:30:21,387 - Model - INFO - val loss: 0.001585
+2023-05-18 09:30:21,387 - Model - INFO - val cd: 0.001585
+2023-05-18 09:30:21,387 - Model - INFO - Save model...
+2023-05-18 09:30:21,388 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 09:30:21,659 - Model - INFO - Epoch 110 (110/200):
+2023-05-18 09:39:06,042 - Model - INFO - mean loss: 1.378637
+2023-05-18 09:39:06,043 - Model - INFO - mean chamfer distance: 0.001379
+2023-05-18 09:39:06,043 - Model - INFO - Epoch 111 (111/200):
+2023-05-18 09:47:50,881 - Model - INFO - mean loss: 1.377011
+2023-05-18 09:47:50,881 - Model - INFO - mean chamfer distance: 0.001377
+2023-05-18 09:47:50,881 - Model - INFO - Start val...
+2023-05-18 09:48:39,582 - Model - INFO - val loss: 0.001584
+2023-05-18 09:48:39,582 - Model - INFO - val cd: 0.001584
+2023-05-18 09:48:39,583 - Model - INFO - Save model...
+2023-05-18 09:48:39,583 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 09:48:39,841 - Model - INFO - Epoch 112 (112/200):
+2023-05-18 09:57:24,875 - Model - INFO - mean loss: 1.376317
+2023-05-18 09:57:24,876 - Model - INFO - mean chamfer distance: 0.001376
+2023-05-18 09:57:24,876 - Model - INFO - Epoch 113 (113/200):
+2023-05-18 10:06:10,519 - Model - INFO - mean loss: 1.374534
+2023-05-18 10:06:10,519 - Model - INFO - mean chamfer distance: 0.001375
+2023-05-18 10:06:10,519 - Model - INFO - Start val...
+2023-05-18 10:06:59,533 - Model - INFO - val loss: 0.001585
+2023-05-18 10:06:59,533 - Model - INFO - val cd: 0.001585
+2023-05-18 10:06:59,533 - Model - INFO - Epoch 114 (114/200):
+2023-05-18 10:15:45,867 - Model - INFO - mean loss: 1.373203
+2023-05-18 10:15:45,867 - Model - INFO - mean chamfer distance: 0.001373
+2023-05-18 10:15:45,867 - Model - INFO - Epoch 115 (115/200):
+2023-05-18 10:24:30,734 - Model - INFO - mean loss: 1.371028
+2023-05-18 10:24:30,734 - Model - INFO - mean chamfer distance: 0.001371
+2023-05-18 10:24:30,734 - Model - INFO - Start val...
+2023-05-18 10:25:19,658 - Model - INFO - val loss: 0.001585
+2023-05-18 10:25:19,658 - Model - INFO - val cd: 0.001585
+2023-05-18 10:25:19,658 - Model - INFO - Epoch 116 (116/200):
+2023-05-18 10:34:04,958 - Model - INFO - mean loss: 1.371062
+2023-05-18 10:34:04,958 - Model - INFO - mean chamfer distance: 0.001371
+2023-05-18 10:34:04,958 - Model - INFO - Epoch 117 (117/200):
+2023-05-18 10:42:50,063 - Model - INFO - mean loss: 1.370339
+2023-05-18 10:42:50,064 - Model - INFO - mean chamfer distance: 0.001370
+2023-05-18 10:42:50,064 - Model - INFO - Start val...
+2023-05-18 10:43:38,716 - Model - INFO - val loss: 0.001579
+2023-05-18 10:43:38,716 - Model - INFO - val cd: 0.001579
+2023-05-18 10:43:38,716 - Model - INFO - Save model...
+2023-05-18 10:43:38,717 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 10:43:38,956 - Model - INFO - Epoch 118 (118/200):
+2023-05-18 10:52:23,353 - Model - INFO - mean loss: 1.369076
+2023-05-18 10:52:23,353 - Model - INFO - mean chamfer distance: 0.001369
+2023-05-18 10:52:23,353 - Model - INFO - Epoch 119 (119/200):
+2023-05-18 11:01:07,359 - Model - INFO - mean loss: 1.367128
+2023-05-18 11:01:07,360 - Model - INFO - mean chamfer distance: 0.001367
+2023-05-18 11:01:07,360 - Model - INFO - Start val...
+2023-05-18 11:01:55,892 - Model - INFO - val loss: 0.001583
+2023-05-18 11:01:55,892 - Model - INFO - val cd: 0.001583
+2023-05-18 11:01:55,893 - Model - INFO - Epoch 120 (120/200):
+2023-05-18 11:10:40,051 - Model - INFO - mean loss: 1.356633
+2023-05-18 11:10:40,052 - Model - INFO - mean chamfer distance: 0.001357
+2023-05-18 11:10:40,052 - Model - INFO - Epoch 121 (121/200):
+2023-05-18 11:19:24,298 - Model - INFO - mean loss: 1.353127
+2023-05-18 11:19:24,298 - Model - INFO - mean chamfer distance: 0.001353
+2023-05-18 11:19:24,299 - Model - INFO - Start val...
+2023-05-18 11:20:13,197 - Model - INFO - val loss: 0.001576
+2023-05-18 11:20:13,197 - Model - INFO - val cd: 0.001576
+2023-05-18 11:20:13,197 - Model - INFO - Save model...
+2023-05-18 11:20:13,197 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 11:20:13,456 - Model - INFO - Epoch 122 (122/200):
+2023-05-18 11:28:58,293 - Model - INFO - mean loss: 1.350895
+2023-05-18 11:28:58,293 - Model - INFO - mean chamfer distance: 0.001351
+2023-05-18 11:28:58,294 - Model - INFO - Epoch 123 (123/200):
+2023-05-18 11:37:43,400 - Model - INFO - mean loss: 1.348828
+2023-05-18 11:37:43,400 - Model - INFO - mean chamfer distance: 0.001349
+2023-05-18 11:37:43,401 - Model - INFO - Start val...
+2023-05-18 11:38:32,243 - Model - INFO - val loss: 0.001574
+2023-05-18 11:38:32,244 - Model - INFO - val cd: 0.001574
+2023-05-18 11:38:32,244 - Model - INFO - Save model...
+2023-05-18 11:38:32,244 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 11:38:32,499 - Model - INFO - Epoch 124 (124/200):
+2023-05-18 11:47:17,425 - Model - INFO - mean loss: 1.347458
+2023-05-18 11:47:17,425 - Model - INFO - mean chamfer distance: 0.001347
+2023-05-18 11:47:17,425 - Model - INFO - Epoch 125 (125/200):
+2023-05-18 11:56:01,378 - Model - INFO - mean loss: 1.346527
+2023-05-18 11:56:01,379 - Model - INFO - mean chamfer distance: 0.001347
+2023-05-18 11:56:01,379 - Model - INFO - Start val...
+2023-05-18 11:56:49,760 - Model - INFO - val loss: 0.001573
+2023-05-18 11:56:49,761 - Model - INFO - val cd: 0.001573
+2023-05-18 11:56:49,761 - Model - INFO - Save model...
+2023-05-18 11:56:49,761 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 11:56:50,039 - Model - INFO - Epoch 126 (126/200):
+2023-05-18 12:05:35,605 - Model - INFO - mean loss: 1.344126
+2023-05-18 12:05:35,605 - Model - INFO - mean chamfer distance: 0.001344
+2023-05-18 12:05:35,606 - Model - INFO - Epoch 127 (127/200):
+2023-05-18 12:14:21,184 - Model - INFO - mean loss: 1.343788
+2023-05-18 12:14:21,184 - Model - INFO - mean chamfer distance: 0.001344
+2023-05-18 12:14:21,184 - Model - INFO - Start val...
+2023-05-18 12:15:09,656 - Model - INFO - val loss: 0.001574
+2023-05-18 12:15:09,656 - Model - INFO - val cd: 0.001574
+2023-05-18 12:15:09,656 - Model - INFO - Epoch 128 (128/200):
+2023-05-18 12:23:54,516 - Model - INFO - mean loss: 1.343224
+2023-05-18 12:23:54,516 - Model - INFO - mean chamfer distance: 0.001343
+2023-05-18 12:23:54,516 - Model - INFO - Epoch 129 (129/200):
+2023-05-18 12:32:38,381 - Model - INFO - mean loss: 1.341867
+2023-05-18 12:32:38,381 - Model - INFO - mean chamfer distance: 0.001342
+2023-05-18 12:32:38,381 - Model - INFO - Start val...
+2023-05-18 12:33:27,043 - Model - INFO - val loss: 0.001573
+2023-05-18 12:33:27,043 - Model - INFO - val cd: 0.001573
+2023-05-18 12:33:27,043 - Model - INFO - Epoch 130 (130/200):
+2023-05-18 12:42:11,132 - Model - INFO - mean loss: 1.341674
+2023-05-18 12:42:11,133 - Model - INFO - mean chamfer distance: 0.001342
+2023-05-18 12:42:11,133 - Model - INFO - Epoch 131 (131/200):
+2023-05-18 12:50:55,550 - Model - INFO - mean loss: 1.340663
+2023-05-18 12:50:55,551 - Model - INFO - mean chamfer distance: 0.001341
+2023-05-18 12:50:55,551 - Model - INFO - Start val...
+2023-05-18 12:51:44,364 - Model - INFO - val loss: 0.001571
+2023-05-18 12:51:44,364 - Model - INFO - val cd: 0.001571
+2023-05-18 12:51:44,364 - Model - INFO - Save model...
+2023-05-18 12:51:44,364 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 12:51:44,614 - Model - INFO - Epoch 132 (132/200):
+2023-05-18 13:00:29,528 - Model - INFO - mean loss: 1.339833
+2023-05-18 13:00:29,529 - Model - INFO - mean chamfer distance: 0.001340
+2023-05-18 13:00:29,529 - Model - INFO - Epoch 133 (133/200):
+2023-05-18 13:09:14,558 - Model - INFO - mean loss: 1.339213
+2023-05-18 13:09:14,558 - Model - INFO - mean chamfer distance: 0.001339
+2023-05-18 13:09:14,558 - Model - INFO - Start val...
+2023-05-18 13:10:03,396 - Model - INFO - val loss: 0.001571
+2023-05-18 13:10:03,396 - Model - INFO - val cd: 0.001571
+2023-05-18 13:10:03,396 - Model - INFO - Epoch 134 (134/200):
+2023-05-18 13:18:47,496 - Model - INFO - mean loss: 1.338200
+2023-05-18 13:18:47,496 - Model - INFO - mean chamfer distance: 0.001338
+2023-05-18 13:18:47,496 - Model - INFO - Epoch 135 (135/200):
+2023-05-18 13:27:32,239 - Model - INFO - mean loss: 1.337476
+2023-05-18 13:27:32,239 - Model - INFO - mean chamfer distance: 0.001337
+2023-05-18 13:27:32,239 - Model - INFO - Start val...
+2023-05-18 13:28:20,893 - Model - INFO - val loss: 0.001571
+2023-05-18 13:28:20,893 - Model - INFO - val cd: 0.001571
+2023-05-18 13:28:20,893 - Model - INFO - Save model...
+2023-05-18 13:28:20,893 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 13:28:21,138 - Model - INFO - Epoch 136 (136/200):
+2023-05-18 13:37:05,562 - Model - INFO - mean loss: 1.336668
+2023-05-18 13:37:05,562 - Model - INFO - mean chamfer distance: 0.001337
+2023-05-18 13:37:05,562 - Model - INFO - Epoch 137 (137/200):
+2023-05-18 13:45:51,085 - Model - INFO - mean loss: 1.335904
+2023-05-18 13:45:51,085 - Model - INFO - mean chamfer distance: 0.001336
+2023-05-18 13:45:51,085 - Model - INFO - Start val...
+2023-05-18 13:46:39,680 - Model - INFO - val loss: 0.001575
+2023-05-18 13:46:39,680 - Model - INFO - val cd: 0.001575
+2023-05-18 13:46:39,681 - Model - INFO - Epoch 138 (138/200):
+2023-05-18 13:55:24,426 - Model - INFO - mean loss: 1.336128
+2023-05-18 13:55:24,427 - Model - INFO - mean chamfer distance: 0.001336
+2023-05-18 13:55:24,427 - Model - INFO - Epoch 139 (139/200):
+2023-05-18 14:04:09,341 - Model - INFO - mean loss: 1.334901
+2023-05-18 14:04:09,341 - Model - INFO - mean chamfer distance: 0.001335
+2023-05-18 14:04:09,341 - Model - INFO - Start val...
+2023-05-18 14:04:58,167 - Model - INFO - val loss: 0.001573
+2023-05-18 14:04:58,167 - Model - INFO - val cd: 0.001573
+2023-05-18 14:04:58,168 - Model - INFO - Epoch 140 (140/200):
+2023-05-18 14:13:44,058 - Model - INFO - mean loss: 1.329639
+2023-05-18 14:13:44,058 - Model - INFO - mean chamfer distance: 0.001330
+2023-05-18 14:13:44,058 - Model - INFO - Epoch 141 (141/200):
+2023-05-18 14:22:29,718 - Model - INFO - mean loss: 1.326970
+2023-05-18 14:22:29,718 - Model - INFO - mean chamfer distance: 0.001327
+2023-05-18 14:22:29,718 - Model - INFO - Start val...
+2023-05-18 14:23:18,241 - Model - INFO - val loss: 0.001570
+2023-05-18 14:23:18,242 - Model - INFO - val cd: 0.001570
+2023-05-18 14:23:18,242 - Model - INFO - Save model...
+2023-05-18 14:23:18,242 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 14:23:18,561 - Model - INFO - Epoch 142 (142/200):
+2023-05-18 14:32:03,389 - Model - INFO - mean loss: 1.325581
+2023-05-18 14:32:03,390 - Model - INFO - mean chamfer distance: 0.001326
+2023-05-18 14:32:03,390 - Model - INFO - Epoch 143 (143/200):
+2023-05-18 14:40:47,718 - Model - INFO - mean loss: 1.325377
+2023-05-18 14:40:47,718 - Model - INFO - mean chamfer distance: 0.001325
+2023-05-18 14:40:47,718 - Model - INFO - Start val...
+2023-05-18 14:41:36,461 - Model - INFO - val loss: 0.001569
+2023-05-18 14:41:36,461 - Model - INFO - val cd: 0.001569
+2023-05-18 14:41:36,462 - Model - INFO - Save model...
+2023-05-18 14:41:36,462 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 14:41:36,705 - Model - INFO - Epoch 144 (144/200):
+2023-05-18 14:50:22,592 - Model - INFO - mean loss: 1.324711
+2023-05-18 14:50:22,592 - Model - INFO - mean chamfer distance: 0.001325
+2023-05-18 14:50:22,592 - Model - INFO - Epoch 145 (145/200):
+2023-05-18 14:59:08,268 - Model - INFO - mean loss: 1.324077
+2023-05-18 14:59:08,269 - Model - INFO - mean chamfer distance: 0.001324
+2023-05-18 14:59:08,269 - Model - INFO - Start val...
+2023-05-18 14:59:56,613 - Model - INFO - val loss: 0.001570
+2023-05-18 14:59:56,613 - Model - INFO - val cd: 0.001570
+2023-05-18 14:59:56,614 - Model - INFO - Epoch 146 (146/200):
+2023-05-18 15:08:42,239 - Model - INFO - mean loss: 1.323013
+2023-05-18 15:08:42,239 - Model - INFO - mean chamfer distance: 0.001323
+2023-05-18 15:08:42,239 - Model - INFO - Epoch 147 (147/200):
+2023-05-18 15:17:26,684 - Model - INFO - mean loss: 1.322500
+2023-05-18 15:17:26,684 - Model - INFO - mean chamfer distance: 0.001322
+2023-05-18 15:17:26,684 - Model - INFO - Start val...
+2023-05-18 15:18:15,568 - Model - INFO - val loss: 0.001565
+2023-05-18 15:18:15,568 - Model - INFO - val cd: 0.001565
+2023-05-18 15:18:15,568 - Model - INFO - Save model...
+2023-05-18 15:18:15,568 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 15:18:15,870 - Model - INFO - Epoch 148 (148/200):
+2023-05-18 15:27:01,157 - Model - INFO - mean loss: 1.322064
+2023-05-18 15:27:01,157 - Model - INFO - mean chamfer distance: 0.001322
+2023-05-18 15:27:01,158 - Model - INFO - Epoch 149 (149/200):
+2023-05-18 15:35:45,790 - Model - INFO - mean loss: 1.321150
+2023-05-18 15:35:45,790 - Model - INFO - mean chamfer distance: 0.001321
+2023-05-18 15:35:45,790 - Model - INFO - Start val...
+2023-05-18 15:36:34,473 - Model - INFO - val loss: 0.001570
+2023-05-18 15:36:34,473 - Model - INFO - val cd: 0.001570
+2023-05-18 15:36:34,473 - Model - INFO - Epoch 150 (150/200):
+2023-05-18 15:45:20,103 - Model - INFO - mean loss: 1.320508
+2023-05-18 15:45:20,103 - Model - INFO - mean chamfer distance: 0.001321
+2023-05-18 15:45:20,103 - Model - INFO - Epoch 151 (151/200):
+2023-05-18 15:54:04,426 - Model - INFO - mean loss: 1.320856
+2023-05-18 15:54:04,426 - Model - INFO - mean chamfer distance: 0.001321
+2023-05-18 15:54:04,426 - Model - INFO - Start val...
+2023-05-18 15:54:52,986 - Model - INFO - val loss: 0.001569
+2023-05-18 15:54:52,986 - Model - INFO - val cd: 0.001569
+2023-05-18 15:54:52,986 - Model - INFO - Epoch 152 (152/200):
+2023-05-18 16:03:37,256 - Model - INFO - mean loss: 1.319660
+2023-05-18 16:03:37,256 - Model - INFO - mean chamfer distance: 0.001320
+2023-05-18 16:03:37,256 - Model - INFO - Epoch 153 (153/200):
+2023-05-18 16:12:22,607 - Model - INFO - mean loss: 1.319696
+2023-05-18 16:12:22,608 - Model - INFO - mean chamfer distance: 0.001320
+2023-05-18 16:12:22,608 - Model - INFO - Start val...
+2023-05-18 16:13:11,493 - Model - INFO - val loss: 0.001564
+2023-05-18 16:13:11,493 - Model - INFO - val cd: 0.001564
+2023-05-18 16:13:11,494 - Model - INFO - Save model...
+2023-05-18 16:13:11,494 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 16:13:11,765 - Model - INFO - Epoch 154 (154/200):
+2023-05-18 16:21:56,282 - Model - INFO - mean loss: 1.318434
+2023-05-18 16:21:56,282 - Model - INFO - mean chamfer distance: 0.001318
+2023-05-18 16:21:56,282 - Model - INFO - Epoch 155 (155/200):
+2023-05-18 16:30:41,451 - Model - INFO - mean loss: 1.318484
+2023-05-18 16:30:41,451 - Model - INFO - mean chamfer distance: 0.001318
+2023-05-18 16:30:41,452 - Model - INFO - Start val...
+2023-05-18 16:31:30,061 - Model - INFO - val loss: 0.001566
+2023-05-18 16:31:30,061 - Model - INFO - val cd: 0.001566
+2023-05-18 16:31:30,062 - Model - INFO - Epoch 156 (156/200):
+2023-05-18 16:40:15,226 - Model - INFO - mean loss: 1.317870
+2023-05-18 16:40:15,226 - Model - INFO - mean chamfer distance: 0.001318
+2023-05-18 16:40:15,226 - Model - INFO - Epoch 157 (157/200):
+2023-05-18 16:49:00,968 - Model - INFO - mean loss: 1.318307
+2023-05-18 16:49:00,968 - Model - INFO - mean chamfer distance: 0.001318
+2023-05-18 16:49:00,968 - Model - INFO - Start val...
+2023-05-18 16:49:49,789 - Model - INFO - val loss: 0.001567
+2023-05-18 16:49:49,789 - Model - INFO - val cd: 0.001567
+2023-05-18 16:49:49,790 - Model - INFO - Epoch 158 (158/200):
+2023-05-18 16:58:34,531 - Model - INFO - mean loss: 1.317279
+2023-05-18 16:58:34,532 - Model - INFO - mean chamfer distance: 0.001317
+2023-05-18 16:58:34,532 - Model - INFO - Epoch 159 (159/200):
+2023-05-18 17:07:19,140 - Model - INFO - mean loss: 1.316685
+2023-05-18 17:07:19,141 - Model - INFO - mean chamfer distance: 0.001317
+2023-05-18 17:07:19,141 - Model - INFO - Start val...
+2023-05-18 17:08:07,608 - Model - INFO - val loss: 0.001566
+2023-05-18 17:08:07,609 - Model - INFO - val cd: 0.001566
+2023-05-18 17:08:07,609 - Model - INFO - Epoch 160 (160/200):
+2023-05-18 17:16:52,311 - Model - INFO - mean loss: 1.313983
+2023-05-18 17:16:52,312 - Model - INFO - mean chamfer distance: 0.001314
+2023-05-18 17:16:52,312 - Model - INFO - Epoch 161 (161/200):
+2023-05-18 17:25:36,539 - Model - INFO - mean loss: 1.312552
+2023-05-18 17:25:36,539 - Model - INFO - mean chamfer distance: 0.001313
+2023-05-18 17:25:36,539 - Model - INFO - Start val...
+2023-05-18 17:26:25,268 - Model - INFO - val loss: 0.001566
+2023-05-18 17:26:25,268 - Model - INFO - val cd: 0.001566
+2023-05-18 17:26:25,269 - Model - INFO - Epoch 162 (162/200):
+2023-05-18 17:35:10,546 - Model - INFO - mean loss: 1.312417
+2023-05-18 17:35:10,546 - Model - INFO - mean chamfer distance: 0.001312
+2023-05-18 17:35:10,546 - Model - INFO - Epoch 163 (163/200):
+2023-05-18 17:43:55,287 - Model - INFO - mean loss: 1.312273
+2023-05-18 17:43:55,287 - Model - INFO - mean chamfer distance: 0.001312
+2023-05-18 17:43:55,288 - Model - INFO - Start val...
+2023-05-18 17:44:43,887 - Model - INFO - val loss: 0.001566
+2023-05-18 17:44:43,887 - Model - INFO - val cd: 0.001566
+2023-05-18 17:44:43,888 - Model - INFO - Epoch 164 (164/200):
+2023-05-18 17:53:28,950 - Model - INFO - mean loss: 1.311945
+2023-05-18 17:53:28,950 - Model - INFO - mean chamfer distance: 0.001312
+2023-05-18 17:53:28,950 - Model - INFO - Epoch 165 (165/200):
+2023-05-18 18:02:13,859 - Model - INFO - mean loss: 1.311279
+2023-05-18 18:02:13,859 - Model - INFO - mean chamfer distance: 0.001311
+2023-05-18 18:02:13,859 - Model - INFO - Start val...
+2023-05-18 18:03:02,928 - Model - INFO - val loss: 0.001563
+2023-05-18 18:03:02,928 - Model - INFO - val cd: 0.001563
+2023-05-18 18:03:02,928 - Model - INFO - Save model...
+2023-05-18 18:03:02,928 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 18:03:03,167 - Model - INFO - Epoch 166 (166/200):
+2023-05-18 18:11:48,903 - Model - INFO - mean loss: 1.311125
+2023-05-18 18:11:48,903 - Model - INFO - mean chamfer distance: 0.001311
+2023-05-18 18:11:48,903 - Model - INFO - Epoch 167 (167/200):
+2023-05-18 18:20:34,091 - Model - INFO - mean loss: 1.310624
+2023-05-18 18:20:34,092 - Model - INFO - mean chamfer distance: 0.001311
+2023-05-18 18:20:34,092 - Model - INFO - Start val...
+2023-05-18 18:21:23,291 - Model - INFO - val loss: 0.001564
+2023-05-18 18:21:23,291 - Model - INFO - val cd: 0.001564
+2023-05-18 18:21:23,292 - Model - INFO - Epoch 168 (168/200):
+2023-05-18 18:30:07,951 - Model - INFO - mean loss: 1.310673
+2023-05-18 18:30:07,952 - Model - INFO - mean chamfer distance: 0.001311
+2023-05-18 18:30:07,952 - Model - INFO - Epoch 169 (169/200):
+2023-05-18 18:38:52,904 - Model - INFO - mean loss: 1.309689
+2023-05-18 18:38:52,904 - Model - INFO - mean chamfer distance: 0.001310
+2023-05-18 18:38:52,904 - Model - INFO - Start val...
+2023-05-18 18:39:41,836 - Model - INFO - val loss: 0.001563
+2023-05-18 18:39:41,836 - Model - INFO - val cd: 0.001563
+2023-05-18 18:39:41,836 - Model - INFO - Save model...
+2023-05-18 18:39:41,837 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 18:39:42,087 - Model - INFO - Epoch 170 (170/200):
+2023-05-18 18:48:27,253 - Model - INFO - mean loss: 1.309420
+2023-05-18 18:48:27,253 - Model - INFO - mean chamfer distance: 0.001309
+2023-05-18 18:48:27,254 - Model - INFO - Epoch 171 (171/200):
+2023-05-18 18:57:12,400 - Model - INFO - mean loss: 1.309432
+2023-05-18 18:57:12,400 - Model - INFO - mean chamfer distance: 0.001309
+2023-05-18 18:57:12,400 - Model - INFO - Start val...
+2023-05-18 18:58:01,048 - Model - INFO - val loss: 0.001564
+2023-05-18 18:58:01,049 - Model - INFO - val cd: 0.001564
+2023-05-18 18:58:01,049 - Model - INFO - Epoch 172 (172/200):
+2023-05-18 19:06:46,624 - Model - INFO - mean loss: 1.309393
+2023-05-18 19:06:46,624 - Model - INFO - mean chamfer distance: 0.001309
+2023-05-18 19:06:46,624 - Model - INFO - Epoch 173 (173/200):
+2023-05-18 19:15:31,260 - Model - INFO - mean loss: 1.309205
+2023-05-18 19:15:31,260 - Model - INFO - mean chamfer distance: 0.001309
+2023-05-18 19:15:31,260 - Model - INFO - Start val...
+2023-05-18 19:16:19,996 - Model - INFO - val loss: 0.001566
+2023-05-18 19:16:19,996 - Model - INFO - val cd: 0.001566
+2023-05-18 19:16:19,996 - Model - INFO - Epoch 174 (174/200):
+2023-05-18 19:25:04,148 - Model - INFO - mean loss: 1.309264
+2023-05-18 19:25:04,148 - Model - INFO - mean chamfer distance: 0.001309
+2023-05-18 19:25:04,148 - Model - INFO - Epoch 175 (175/200):
+2023-05-18 19:33:49,680 - Model - INFO - mean loss: 1.308270
+2023-05-18 19:33:49,680 - Model - INFO - mean chamfer distance: 0.001308
+2023-05-18 19:33:49,680 - Model - INFO - Start val...
+2023-05-18 19:34:38,288 - Model - INFO - val loss: 0.001562
+2023-05-18 19:34:38,288 - Model - INFO - val cd: 0.001562
+2023-05-18 19:34:38,288 - Model - INFO - Save model...
+2023-05-18 19:34:38,288 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 19:34:38,617 - Model - INFO - Epoch 176 (176/200):
+2023-05-18 19:43:23,888 - Model - INFO - mean loss: 1.307867
+2023-05-18 19:43:23,888 - Model - INFO - mean chamfer distance: 0.001308
+2023-05-18 19:43:23,888 - Model - INFO - Epoch 177 (177/200):
+2023-05-18 19:52:08,568 - Model - INFO - mean loss: 1.308834
+2023-05-18 19:52:08,569 - Model - INFO - mean chamfer distance: 0.001309
+2023-05-18 19:52:08,569 - Model - INFO - Start val...
+2023-05-18 19:52:57,332 - Model - INFO - val loss: 0.001562
+2023-05-18 19:52:57,333 - Model - INFO - val cd: 0.001562
+2023-05-18 19:52:57,333 - Model - INFO - Epoch 178 (178/200):
+2023-05-18 20:01:41,735 - Model - INFO - mean loss: 1.307739
+2023-05-18 20:01:41,736 - Model - INFO - mean chamfer distance: 0.001308
+2023-05-18 20:01:41,736 - Model - INFO - Epoch 179 (179/200):
+2023-05-18 20:10:27,020 - Model - INFO - mean loss: 1.307733
+2023-05-18 20:10:27,020 - Model - INFO - mean chamfer distance: 0.001308
+2023-05-18 20:10:27,020 - Model - INFO - Start val...
+2023-05-18 20:11:15,662 - Model - INFO - val loss: 0.001566
+2023-05-18 20:11:15,662 - Model - INFO - val cd: 0.001566
+2023-05-18 20:11:15,662 - Model - INFO - Epoch 180 (180/200):
+2023-05-18 20:19:59,738 - Model - INFO - mean loss: 1.306151
+2023-05-18 20:19:59,738 - Model - INFO - mean chamfer distance: 0.001306
+2023-05-18 20:19:59,738 - Model - INFO - Epoch 181 (181/200):
+2023-05-18 20:28:44,967 - Model - INFO - mean loss: 1.305692
+2023-05-18 20:28:44,967 - Model - INFO - mean chamfer distance: 0.001306
+2023-05-18 20:28:44,967 - Model - INFO - Start val...
+2023-05-18 20:29:33,600 - Model - INFO - val loss: 0.001565
+2023-05-18 20:29:33,600 - Model - INFO - val cd: 0.001565
+2023-05-18 20:29:33,601 - Model - INFO - Epoch 182 (182/200):
+2023-05-18 20:38:18,616 - Model - INFO - mean loss: 1.305633
+2023-05-18 20:38:18,616 - Model - INFO - mean chamfer distance: 0.001306
+2023-05-18 20:38:18,616 - Model - INFO - Epoch 183 (183/200):
+2023-05-18 20:47:04,099 - Model - INFO - mean loss: 1.306138
+2023-05-18 20:47:04,099 - Model - INFO - mean chamfer distance: 0.001306
+2023-05-18 20:47:04,099 - Model - INFO - Start val...
+2023-05-18 20:47:52,550 - Model - INFO - val loss: 0.001562
+2023-05-18 20:47:52,550 - Model - INFO - val cd: 0.001562
+2023-05-18 20:47:52,551 - Model - INFO - Save model...
+2023-05-18 20:47:52,551 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 20:47:52,805 - Model - INFO - Epoch 184 (184/200):
+2023-05-18 20:56:37,568 - Model - INFO - mean loss: 1.305595
+2023-05-18 20:56:37,568 - Model - INFO - mean chamfer distance: 0.001306
+2023-05-18 20:56:37,568 - Model - INFO - Epoch 185 (185/200):
+2023-05-18 21:05:21,665 - Model - INFO - mean loss: 1.305294
+2023-05-18 21:05:21,665 - Model - INFO - mean chamfer distance: 0.001305
+2023-05-18 21:05:21,665 - Model - INFO - Start val...
+2023-05-18 21:06:10,163 - Model - INFO - val loss: 0.001563
+2023-05-18 21:06:10,163 - Model - INFO - val cd: 0.001563
+2023-05-18 21:06:10,164 - Model - INFO - Epoch 186 (186/200):
+2023-05-18 21:14:55,659 - Model - INFO - mean loss: 1.305211
+2023-05-18 21:14:55,659 - Model - INFO - mean chamfer distance: 0.001305
+2023-05-18 21:14:55,659 - Model - INFO - Epoch 187 (187/200):
+2023-05-18 21:23:40,287 - Model - INFO - mean loss: 1.305345
+2023-05-18 21:23:40,287 - Model - INFO - mean chamfer distance: 0.001305
+2023-05-18 21:23:40,287 - Model - INFO - Start val...
+2023-05-18 21:24:28,886 - Model - INFO - val loss: 0.001564
+2023-05-18 21:24:28,886 - Model - INFO - val cd: 0.001564
+2023-05-18 21:24:28,887 - Model - INFO - Epoch 188 (188/200):
+2023-05-18 21:33:14,366 - Model - INFO - mean loss: 1.304920
+2023-05-18 21:33:14,367 - Model - INFO - mean chamfer distance: 0.001305
+2023-05-18 21:33:14,367 - Model - INFO - Epoch 189 (189/200):
+2023-05-18 21:41:58,578 - Model - INFO - mean loss: 1.304872
+2023-05-18 21:41:58,579 - Model - INFO - mean chamfer distance: 0.001305
+2023-05-18 21:41:58,579 - Model - INFO - Start val...
+2023-05-18 21:42:47,108 - Model - INFO - val loss: 0.001563
+2023-05-18 21:42:47,108 - Model - INFO - val cd: 0.001563
+2023-05-18 21:42:47,108 - Model - INFO - Epoch 190 (190/200):
+2023-05-18 21:51:31,777 - Model - INFO - mean loss: 1.304944
+2023-05-18 21:51:31,777 - Model - INFO - mean chamfer distance: 0.001305
+2023-05-18 21:51:31,777 - Model - INFO - Epoch 191 (191/200):
+2023-05-18 22:00:16,633 - Model - INFO - mean loss: 1.303887
+2023-05-18 22:00:16,634 - Model - INFO - mean chamfer distance: 0.001304
+2023-05-18 22:00:16,634 - Model - INFO - Start val...
+2023-05-18 22:01:05,414 - Model - INFO - val loss: 0.001561
+2023-05-18 22:01:05,414 - Model - INFO - val cd: 0.001561
+2023-05-18 22:01:05,415 - Model - INFO - Save model...
+2023-05-18 22:01:05,415 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 22:01:05,680 - Model - INFO - Epoch 192 (192/200):
+2023-05-18 22:09:50,848 - Model - INFO - mean loss: 1.304430
+2023-05-18 22:09:50,849 - Model - INFO - mean chamfer distance: 0.001304
+2023-05-18 22:09:50,849 - Model - INFO - Epoch 193 (193/200):
+2023-05-18 22:18:36,144 - Model - INFO - mean loss: 1.303907
+2023-05-18 22:18:36,144 - Model - INFO - mean chamfer distance: 0.001304
+2023-05-18 22:18:36,144 - Model - INFO - Start val...
+2023-05-18 22:19:24,762 - Model - INFO - val loss: 0.001557
+2023-05-18 22:19:24,763 - Model - INFO - val cd: 0.001557
+2023-05-18 22:19:24,763 - Model - INFO - Save model...
+2023-05-18 22:19:24,763 - Model - INFO - Saving at log/PCT_trans_ptv1/300_2048_snr10/checkpoints/best_model.pth
+2023-05-18 22:19:25,015 - Model - INFO - Epoch 194 (194/200):
+2023-05-18 22:28:10,246 - Model - INFO - mean loss: 1.303588
+2023-05-18 22:28:10,246 - Model - INFO - mean chamfer distance: 0.001304
+2023-05-18 22:28:10,246 - Model - INFO - Epoch 195 (195/200):
+2023-05-18 22:36:54,705 - Model - INFO - mean loss: 1.303860
+2023-05-18 22:36:54,705 - Model - INFO - mean chamfer distance: 0.001304
+2023-05-18 22:36:54,705 - Model - INFO - Start val...
+2023-05-18 22:37:43,421 - Model - INFO - val loss: 0.001568
+2023-05-18 22:37:43,421 - Model - INFO - val cd: 0.001568
+2023-05-18 22:37:43,422 - Model - INFO - Epoch 196 (196/200):
+2023-05-18 22:46:27,784 - Model - INFO - mean loss: 1.303554
+2023-05-18 22:46:27,784 - Model - INFO - mean chamfer distance: 0.001304
+2023-05-18 22:46:27,784 - Model - INFO - Epoch 197 (197/200):
+2023-05-18 22:55:12,115 - Model - INFO - mean loss: 1.302959
+2023-05-18 22:55:12,115 - Model - INFO - mean chamfer distance: 0.001303
+2023-05-18 22:55:12,115 - Model - INFO - Start val...
+2023-05-18 22:56:00,635 - Model - INFO - val loss: 0.001563
+2023-05-18 22:56:00,635 - Model - INFO - val cd: 0.001563
+2023-05-18 22:56:00,636 - Model - INFO - Epoch 198 (198/200):
+2023-05-18 23:04:45,920 - Model - INFO - mean loss: 1.303263
+2023-05-18 23:04:45,920 - Model - INFO - mean chamfer distance: 0.001303
+2023-05-18 23:04:45,920 - Model - INFO - Epoch 199 (199/200):
+2023-05-18 23:13:30,475 - Model - INFO - mean loss: 1.302976
+2023-05-18 23:13:30,475 - Model - INFO - mean chamfer distance: 0.001303
+2023-05-18 23:13:30,475 - Model - INFO - Start val...
+2023-05-18 23:14:18,998 - Model - INFO - val loss: 0.001562
+2023-05-18 23:14:18,999 - Model - INFO - val cd: 0.001562
+2023-05-18 23:14:18,999 - Model - INFO - Epoch 200 (200/200):
+2023-05-18 23:23:03,759 - Model - INFO - mean loss: 1.302930
+2023-05-18 23:23:03,759 - Model - INFO - mean chamfer distance: 0.001303
+2023-05-18 23:23:03,759 - Model - INFO - End of training...
